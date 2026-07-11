@@ -3,8 +3,9 @@ import { Link, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import { Home } from "./pages/Home";
 import { Dashboard } from "./pages/Dashboard";
-import Lab2 from "./Lab/lab2";
+import Lab2 from "./Lab/Lab2";
 import { Lab1 } from "./Lab/Lab1";
+import { Lab3 } from "./Lab/Lab3";
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/dashboard" element={<Dashboard />} /> 
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/lab1" element={<Lab1 />} /> //Lab 1
         <Route path="/lab2" element={<Lab2 />} /> //Lab 2
+        <Route path="/lab3" element={<Lab3 />} /> //Lab 3
       </Routes>
     </>
   );
