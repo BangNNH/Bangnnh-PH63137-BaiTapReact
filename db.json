@@ -1,3 +1,76 @@
 {
-  "stories": []
+  "stories": [
+    {
+      "id": 1,
+      "title": "Hành trình học React",
+      "author": "Nguyễn Văn A",
+      "description": "Chia sẻ kinh nghiệm bắt đầu học React từ những kiến thức cơ bản đến nâng cao.",
+      "image": "https://picsum.photos/id/1015/600/400",
+      "createdAt": "2026-07-14"
+    },
+    {
+      "id": 2,
+      "title": "Tìm hiểu React Query",
+      "author": "Trần Thị B",
+      "description": "Hướng dẫn sử dụng React Query để fetch, cache và đồng bộ dữ liệu từ API.",
+      "image": "https://picsum.photos/id/1018/600/400",
+      "createdAt": "2026-07-13"
+    },
+    {
+      "id": 3,
+      "title": "Học TypeScript",
+      "author": "Lê Văn C",
+      "description": "Làm quen với TypeScript, kiểu dữ liệu và cách sử dụng trong React.",
+      "image": "https://picsum.photos/id/1025/600/400",
+      "createdAt": "2026-07-12"
+    },
+    {
+      "id": 4,
+      "title": "React Router",
+      "author": "Phạm Thị D",
+      "description": "Tìm hiểu cách điều hướng giữa các trang với React Router DOM.",
+      "image": "https://picsum.photos/id/1035/600/400",
+      "createdAt": "2026-07-11"
+    },
+    {
+      "id": 6,
+      "title": "React Hook Form",
+      "author": "Phạm Minh K",
+      "description": "Quản lý form và validation hiệu quả với React Hook Form.",
+      "image": "https://picsum.photos/id/1050/600/400",
+      "createdAt": "2026-07-09"
+    },
+    {
+      "id": 7,
+      "title": "Tailwind CSS cơ bản",
+      "author": "Đỗ Thu H",
+      "description": "Học cách xây dựng giao diện nhanh chóng với Tailwind CSS.",
+      "image": "https://picsum.photos/id/1060/600/400",
+      "createdAt": "2026-07-08"
+    },
+    {
+      "id": 8,
+      "title": "Quản lý State với Zustand",
+      "author": "Lê Quốc M",
+      "description": "Tìm hiểu thư viện Zustand để quản lý state trong React.",
+      "image": "https://picsum.photos/id/1070/600/400",
+      "createdAt": "2026-07-07"
+    },
+    {
+      "id": 9,
+      "title": "Redux Toolkit cho người mới",
+      "author": "Trần Quốc N",
+      "description": "Giới thiệu Redux Toolkit và cách sử dụng trong dự án React.",
+      "image": "https://picsum.photos/id/1080/600/400",
+      "createdAt": "2026-07-06"
+    },
+    {
+      "id": 10,
+      "title": "Triển khai ứng dụng React",
+      "author": "Nguyễn Thị P",
+      "description": "Hướng dẫn deploy ứng dụng React lên Vercel và Netlify.",
+      "image": "https://picsum.photos/id/1090/600/400",
+      "createdAt": "2026-07-05"
+    }
+  ]
 }
