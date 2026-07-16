@@ -23,6 +23,14 @@ const StoryList = () => {
         },
     });
 
+    const { data: categories } = useQuery({
+        queryKey: ["categories"],
+        queryFn: async () => {
+            const res = await axios.get("http://localhost:3000/categories");
+            return res.data;
+        },
+    });
+
     const deleteStory = async (id: number) => {
         return axios.delete(`http://localhost:3000/stories/${id}`);
     };
@@ -67,6 +75,15 @@ const StoryList = () => {
         {
             title: "Tác giả",
             dataIndex: "author",
+        },
+        {
+            title: "Danh mục",
+            dataIndex: "categoryId",
+            render: (categoryId: number) => {
+                return categories?.find(
+                    (item: any) => item.id === categoryId
+                )?.title;
+            },
         },
         {
             title: "Mô tả",

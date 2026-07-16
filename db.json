@@ -4,6 +4,7 @@
       "id": 1,
       "title": "Hành trình học React",
       "author": "Nguyễn Văn A",
+      "categoryId": 3,
       "description": "Chia sẻ kinh nghiệm bắt đầu học React từ những kiến thức cơ bản đến nâng cao.",
       "image": "https://picsum.photos/id/1015/600/400",
       "createdAt": "2026-07-14"
@@ -12,6 +13,7 @@
       "id": 2,
       "title": "Tìm hiểu React Query",
       "author": "Trần Thị B",
+      "categoryId": 2,
       "description": "Hướng dẫn sử dụng React Query để fetch, cache và đồng bộ dữ liệu từ API.",
       "image": "https://picsum.photos/id/1018/600/400",
       "createdAt": "2026-07-13"
@@ -20,6 +22,7 @@
       "id": 3,
       "title": "Học TypeScript",
       "author": "Lê Văn C",
+      "categoryId": 2,
       "description": "Làm quen với TypeScript, kiểu dữ liệu và cách sử dụng trong React.",
       "image": "https://picsum.photos/id/1025/600/400",
       "createdAt": "2026-07-12"
@@ -28,6 +31,7 @@
       "id": 4,
       "title": "React Router",
       "author": "Phạm Thị D",
+      "categoryId": 1,
       "description": "Tìm hiểu cách điều hướng giữa các trang với React Router DOM.",
       "image": "https://picsum.photos/id/1035/600/400",
       "createdAt": "2026-07-11"
@@ -36,6 +40,7 @@
       "id": 6,
       "title": "React Hook Form",
       "author": "Phạm Minh K",
+      "categoryId": 2,
       "description": "Quản lý form và validation hiệu quả với React Hook Form.",
       "image": "https://picsum.photos/id/1050/600/400",
       "createdAt": "2026-07-09"
@@ -44,6 +49,7 @@
       "id": 7,
       "title": "Tailwind CSS cơ bản",
       "author": "Đỗ Thu H",
+      "categoryId": 3,
       "description": "Học cách xây dựng giao diện nhanh chóng với Tailwind CSS.",
       "image": "https://picsum.photos/id/1060/600/400",
       "createdAt": "2026-07-08"
@@ -71,6 +77,92 @@
       "description": "Hướng dẫn deploy ứng dụng React lên Vercel và Netlify.",
       "image": "https://picsum.photos/id/1090/600/400",
       "createdAt": "2026-07-05"
+    },
+    {
+      "title": "qwert",
+      "author": "werer",
+      "description": "rtert",
+      "image": "erterter",
+      "id": 11
+    },
+    {
+      "title": "wrsfsd",
+      "author": "sdfsdfsdf",
+      "description": "sfsdfsdf",
+      "image": "sdfsdfsdf",
+      "id": 12
+    },
+    {
+      "title": "qưqewe",
+      "author": "qưeqweq",
+      "description": "qưeqwe",
+      "image": "eqweqwe",
+      "id": 13
+    },
+    {
+      "title": "pan pan",
+      "author": "Ngô Tất Tố",
+      "categoryId": 3,
+      "description": "sdfsdf",
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 14
+    },
+    {
+      "title": "test1111",
+      "author": "1232sdfsd",
+      "categoryId": 1,
+      "description": "ưdsdasfa",
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Tiên Hiệp",
+      "description": "Thể loại tu tiên, luyện khí, phi thăng thành tiên.",
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "Kiếm Hiệp",
+      "description": "Những câu chuyện về giang hồ, võ lâm và các môn phái.",
+      "active": true
+    },
+    {
+      "id": 3,
+      "title": "Ngôn Tình",
+      "description": "Truyện tình cảm lãng mạn giữa nam và nữ chính.",
+      "active": true
+    },
+    {
+      "id": 4,
+      "title": "Đô Thị",
+      "description": "Bối cảnh hiện đại với cuộc sống nơi thành thị.",
+      "active": false
+    },
+    {
+      "title": "thiếu nhi",
+      "description": "dành cho thiếu nhi",
+      "id": 5
+    },
+    {
+      "title": "thiếu nhi",
+      "description": "dành cho thiếu nhi",
+      "active": true,
+      "id": 6
+    },
+    {
+      "title": "thiếu nhi",
+      "description": "dành cho thiếu nhi",
+      "active": false,
+      "id": 7
+    },
+    {
+      "title": "thiếu nhi",
+      "description": "dành cho thiếu nhi",
+      "active": true,
+      "id": 8
     }
   ]
 }
