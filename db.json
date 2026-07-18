@@ -1,17 +1,16 @@
 {
   "stories": [
     {
-      "id": 1,
-      "title": "Hành trình học React",
-      "author": "Nguyễn Văn A",
-      "categoryId": 3,
+      "title": "Hành trình học React update 222222",
+      "author": "Nguyễn Văn aaa",
+      "categoryId": 2,
       "description": "Chia sẻ kinh nghiệm bắt đầu học React từ những kiến thức cơ bản đến nâng cao.",
       "image": "https://picsum.photos/id/1015/600/400",
-      "createdAt": "2026-07-14"
+      "id": 1
     },
     {
       "id": 2,
-      "title": "Tìm hiểu React Query",
+      "title": "Tìm hiểu React Query22222",
       "author": "Trần Thị B",
       "categoryId": 2,
       "description": "Hướng dẫn sử dụng React Query để fetch, cache và đồng bộ dữ liệu từ API.",

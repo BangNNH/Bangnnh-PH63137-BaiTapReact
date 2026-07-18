@@ -57,9 +57,9 @@ const Lab5 = () => {
         categoryMutation.mutate(value);
     }
     return (
-        <div>
+        <div style={{ maxWidth: 800, margin: "0 auto", padding: 24 }}>
             <h2>Thêm truyện</h2>
-            <Form onFinish={onFinish} >
+            <Form layout="vertical" onFinish={onFinish} >
                 <Form.Item label="title" name='title'>
                     <Input type="text" placeholder="title" />
                 </Form.Item>

@@ -2,6 +2,7 @@ import { Table, Image, Spin, Button, message, Space, Input } from "antd";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 interface Story {
     id: number;
@@ -15,6 +16,7 @@ interface Story {
 
 const StoryList = () => {
     const queryClient = useQueryClient();
+    const navigate = useNavigate();
     const { data, isLoading, isError } = useQuery<Story[]>({
         queryKey: ["stories"],
         queryFn: async () => {
@@ -53,6 +55,9 @@ const StoryList = () => {
         if (window.confirm("Bạn có chắc muốn xóa ?")) {
             deleteMutation.mutate(id);
         }
+    }
+    const handleEdit = async (id: number) => {
+        navigate(`/lab6/${id}`);
     }
 
     const [searchText, setSearchText] = useState('');
@@ -98,9 +103,17 @@ const StoryList = () => {
             title: "Action",
             dataIndex: "action",
             render: (_: any, record: Story) => (
-                <Button color="danger" variant="solid" onClick={() => handleDelete(record.id)}>
-                    Xóa
-                </Button>)
+                <>
+                    <Button color="primary" variant="solid" onClick={() => handleEdit(record.id)}>
+                        Edit
+                    </Button>
+                    <Link to={"/lab6/:id"}>
+                        <Button color="danger" variant="solid" >
+                            Delete
+                        </Button>
+                    </Link>
+                </>
+            )
         }
     ];
 
