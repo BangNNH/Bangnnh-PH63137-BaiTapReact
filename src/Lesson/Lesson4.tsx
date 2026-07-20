@@ -56,9 +56,6 @@ const StoryList = () => {
             deleteMutation.mutate(id);
         }
     }
-    const handleEdit = async (id: number) => {
-        navigate(`/lab6/${id}`);
-    }
 
     const [searchText, setSearchText] = useState('');
     const filteredData = data?.filter((story) => story.title.toLowerCase().includes(searchText.toLowerCase()))
@@ -104,12 +101,12 @@ const StoryList = () => {
             dataIndex: "action",
             render: (_: any, record: Story) => (
                 <>
-                    <Button color="primary" variant="solid" onClick={() => handleEdit(record.id)}>
-                        Edit
+                    <Button color="primary" variant="solid" onClick={() => handleDelete(record.id)}>
+                        Delete
                     </Button>
-                    <Link to={"/lab6/:id"}>
+                    <Link to={`/lab6/${record.id}`}>
                         <Button color="danger" variant="solid" >
-                            Delete
+                            Edit
                         </Button>
                     </Link>
                 </>

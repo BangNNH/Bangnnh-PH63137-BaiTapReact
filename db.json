@@ -1,14 +1,6 @@
 {
   "stories": [
     {
-      "title": "Hành trình học React update 222222",
-      "author": "Nguyễn Văn aaa",
-      "categoryId": 2,
-      "description": "Chia sẻ kinh nghiệm bắt đầu học React từ những kiến thức cơ bản đến nâng cao.",
-      "image": "https://picsum.photos/id/1015/600/400",
-      "id": 1
-    },
-    {
       "id": 2,
       "title": "Tìm hiểu React Query22222",
       "author": "Trần Thị B",
